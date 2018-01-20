@@ -5,93 +5,75 @@
         <title>Karachevtsev Yu. Yu. info</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-        <!-- semantic-ui -->
-        <!-- https://semantic-ui.com/introduction/getting-started.html -->
-        <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
-		<link rel="stylesheet" type="text/css" href="index.css">
-        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-        <script src="semantic/dist/semantic.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="index.css">
     </head>
     <body>
-      <div class="ui internally grid">
-        <div class="row">
-          <div class="column">
-          </div>
-          <div class="two wide column">
-            <img src="img/foto_mini.png" class="ui medium circular image">
-          </div>
-          <div class="ten wide column">
-            <div class="ui segment">
-              <h2>Карачевцев Ю.Ю.</h2>
-              <div class="ui list">
-                <div class="item">
-                  <i class="spy icon"></i>
-                  <div class="content">
-                    Программист, опыть работы более 10 лет.
-                  </div>
-                </div>
-                <div class="item">
-                  <i class="icon"></i>
-                  <div class="content">
-                    Ключевые навыки:
-                  </div>
-                </div>
-                <div class="item">
-                  <i class="icon"></i>
-                  <div class="content">
-                    <div class="ui tag label">JavaScript</div>
-                    <div class="ui tag label">HTML/CSS</div>
-					<div class="ui tag label">vue.js</div>                    
-                    <div class="ui tag label">Angular</div>
-                    <div class="ui tag label">Backbone</div>					
-                    <div class="ui tag label">SQL</div>
-                    <div class="ui tag label">C++</div>
-                    <div class="ui tag label">Java</div>
-                    <div class="ui tag label">Git/SVN</div>
-                  </div>
-                </div>
-                <div class="item">
-                  <i class="info circle icon"></i>
-                  <div class="content">
-                    Подробнее на <a href="https://yaroslavl.hh.ru/resume/ff4eef08ff035dd8a80039ed1f4f7949763954" target="_blank">HeadHunter</a> или <a href="https://moikrug.ru/grammidin" target="_blank">МойКруг</a>
-                  </div>
-                </div>
-                <div class="item">
-                  <i class="marker icon"></i>
-                  <div class="content">
-                    Рыбинск, Ярославская обл.
-                  </div>
-                </div>
-                <div class="item">
-                  <i class="mail icon"></i>
-                  <div class="content">
-                    <a href="mailto:mail_ego@list.ru">email</a>
-                  </div>
-                </div>
-                <h3>Пара примеров:</h3>
-				<div class="item">
+      <foto class="mainblock">
+         <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+               <div class="hexagon-in2"></div>
+            </div>
+         </div>
+         <!-- <div class="d16"><img src="img/foto_mini.png" class="foto"></div> -->
+         <name class="block">Карачевцев Ю.Ю.</name>
+         <prof class="block">Программист</prof>
+      </foto>
+      <redzone>
+            <contacts class="secondblock">
+               <h3>Контакты</h3>
+               <contact><img src="img/place.png"/><span>г.Рыбинск</span></contact>
+               <contact><img src="img/email.png"/><a href="mailto:grammidin4eg@gmail.com" target="_blank">Почта</a></contact>
+               <contact><img src="img/telegram.png"/><span><a href="https://t.me/grammidin" target="_blank">Telegram</a></span></contact>
+               <contact><img src="img/headhunter.png"/><a href="https://yaroslavl.hh.ru/resume/ff4eef08ff035dd8a80039ed1f4f7949763954" target="_blank">HeadHunter</a></contact>
+               <contact><img src="img/headhunter.png"/><a href="https://moikrug.ru/grammidin" target="_blank">МойКруг</a></contact>
+               <contact><img src="img/linkedin.png"/><a href="https://www.linkedin.com/in/yuriy-karachevtsev-7b615a114/" target="_blank">linkedin</a></contact>
+            </contacts>
+            <aboutme class="secondblock">
+               <h3>Обо мне</h3>
+               <div>Программист, опыть работы более 10 лет.</div>
+               <div>г.Рыбинск, Ярославская обл.</div>
+               <div>Ищу работу FrontEnd разработчика javascript.</div>
+            </aboutme>
+      </redzone>
+      <skills class="mainblock">
+         <mainskills class="secondblock">
+            <h2>Ключевые навыки:</h2>
+            <skill>JavaScript</skill>
+            <skill>HTML/CSS</skill>
+				<skill>vue.js</skill>
+            <skill>Angular</skill>
+            <skill>Backbone</skill>
+            <skill>SQL</skill>
+            <skill>C++</skill>
+            <skill>Java</skill>
+            <skill>Git/SVN</skill>
+         </mainskills>
+         <fullskills class="secondblock">
+            Полный список навыков
+         </fullskills>
+      </skills>
+      <experience class="mainblock">
+         <samples class="secondblock">Пара примеров
+            <div class="item">
                   <i class="linkify icon"></i>
                   <div class="content">
                     Vue.js :  <a href="vue/vue_finddouble/index.html">[1] Game FindDouble</a>, <a href="vue/vue_polls/index.html">[2] Poll List</a>
                   </div>
                 </div>
-                <div class="item">
+            <div class="item">
                   <i class="linkify icon"></i>
                   <div class="content">
                     <a href="angular/finddouble/index.html">Angular 2</a>
                   </div>
                 </div>
-                <div class="item">
+            <div class="item">
                   <i class="linkify icon"></i>
                   <div class="content">
                     <a href="backbone/minesweeper/index.html">BackboneJS</a>
                   </div>
-                </div>
-              </div><!-- list -->
             </div>
-          </div>
-          <div class="three wide column">
-          </div>
-        </div>
+         </samples>
+         <exptree class="secondblock">Опыт работы</exptree>
+      </experience>
     </body>
 </html>
