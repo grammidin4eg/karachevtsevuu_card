@@ -19,7 +19,7 @@ foto {
    margin: auto;
 }
 
-foto, experience {
+foto {
    min-width: 177px;
    width: 20%;
 }
@@ -35,6 +35,69 @@ redzone, skills {
    min-width: 330px;
 }
 
+skills {
+   flex-direction: column;
+}
+
+experience {
+   display: flex;
+}
+
+expdelimer {
+   width: 5px;
+   height: auto;
+   display: block;
+   background-color: green;
+   margin-left: 8px;
+   margin-right: 8px;
+   margin-top: 3px;
+}
+
+expdescription h3 {
+   color: #a51d1d;
+}
+
+expdescription div {
+   color: gray;
+}
+
+expdelimer.blue {
+   background-color: cornflowerblue;
+}
+
+expdelimer.green {
+   background-color: green;
+}
+
+expdelimer.orange {
+   background-color: orange;
+}
+
+expdelimer.violet {
+   background-color: #4f4f80;
+}
+
+expdescription .gray {
+   color: gray;
+}
+
+expdescription .prof {
+   font-weight: bold;
+   color: bisque;
+}
+
+expdescription {
+   margin-bottom: 20px;
+   min-width: 200px;
+   width: 70%;
+}
+
+dates {
+   width: 30%;
+   min-width: 100px;
+   margin-top: 20px;
+   text-align: right;
+}
 redzone {
    background-color: #a51d1d;
    height: 300px;
