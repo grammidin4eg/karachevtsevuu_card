@@ -19,8 +19,8 @@ foto {
    margin: auto;
 }
 
-foto {
-   min-width: 177px;
+foto, experiencesamples {
+   min-width: 240px;
    width: 20%;
 }
 
@@ -79,6 +79,9 @@ expdelimer.violet {
 
 expdescription .gray {
    color: gray;
+}
+expdescription .gray a {
+   color: inherit;
 }
 
 expdescription .prof {
@@ -243,4 +246,48 @@ skill:last-child {
 }
 skill:last-child:after {
     display: none;
+}
+
+/* список примеров */
+samples {
+   counter-reset: a;
+}
+
+samples a{
+   position: relative;
+   display: block;
+   padding: .4em .4em .4em 2em;
+   *padding: .4em;
+   margin: .5em 15px;
+   background: #ddd;
+   color: #444;
+   text-decoration: none;
+   border-radius: .3em;
+   transition: all .3s ease-out;
+}
+
+samples a:hover{
+   background: #eee;
+}
+
+samples a:hover:before{
+   transform: rotate(360deg);
+}
+
+samples a:before{
+   content: counter(a);
+   counter-increment: a;
+   position: absolute;
+   left: -1.3em;
+   top: 50%;
+   margin-top: -1.3em;
+   background: #87ceeb;
+   height: 2em;
+   width: 2em;
+   line-height: 2em;
+   border: .3em solid #fff;
+   text-align: center;
+   font-weight: bold;
+   border-radius: 2em;
+   transition: all .3s ease-out;
 }
