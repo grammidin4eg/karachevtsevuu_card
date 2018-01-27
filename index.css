@@ -1,7 +1,10 @@
+html, body {
+   background-color: #383535;
+}
+
 body {
    display: flex;
    flex-wrap: wrap;
-   background-color: rgb(56, 53, 53);
 }
 
 h2 {
@@ -108,7 +111,6 @@ redzone {
 
 .mainblock {
    color: white;
-   background-color: rgb(56, 53, 53);
 }
 
 contacts,
