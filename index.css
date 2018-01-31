@@ -23,8 +23,8 @@ foto {
 }
 
 foto, experiencesamples {
-   min-width: 240px;
-   width: 20%;
+   min-width: 198px;
+   flex-basis: 20%;
 }
 
 name {
@@ -33,7 +33,7 @@ name {
 
 redzone, skills {
    flex-grow: 1;
-   width: 80%;
+   flex-basis: 70%;
    display: flex;
    min-width: 330px;
 }
