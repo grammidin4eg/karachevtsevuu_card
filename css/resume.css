@@ -175,6 +175,10 @@ section.resume-section .resume-item .resume-date {
   }
 }
 
+.skills-etc {
+  margin-top: 8px;
+}
+
 .bg-primary {
   background-color: #BD5D38 !important;
 }
