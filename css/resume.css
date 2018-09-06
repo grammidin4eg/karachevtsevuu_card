@@ -179,6 +179,10 @@ section.resume-section .resume-item .resume-date {
   margin-top: 8px;
 }
 
+.proglangs {
+  margin-top: 24px;
+}
+
 .bg-primary {
   background-color: #BD5D38 !important;
 }
