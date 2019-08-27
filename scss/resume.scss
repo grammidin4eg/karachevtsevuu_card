@@ -4,3 +4,16 @@
 @import "nav.scss";
 @import "resume-item.scss";
 @import "bootstrap-overrides.scss";
+
+.btn-simple {
+	transition: 0.3s ease-in;
+	cursor: pointer;
+}
+
+.btn-simple:hover {
+	color: darkmagenta;
+}
+
+.btn-simple.push {
+	font-size: smaller;
+}

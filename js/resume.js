@@ -26,5 +26,20 @@
   $('body').scrollspy({
     target: '#sideNav'
   });
+  
+  $('.btn-simple').click(function() {
+	var el = $(this);
+	el.addClass('push');
+	var aux = document.createElement("input");
+	aux.setAttribute("value", 'karachevtsevuu@gmail.com');
+	document.body.appendChild(aux);
+	aux.select();
+	document.execCommand("copy");
+	document.body.removeChild(aux);
+	setTimeout(function() {
+		el.removeClass('push');
+	}, 500);
+	
+  });
 
 })(jQuery); // End of use strict
