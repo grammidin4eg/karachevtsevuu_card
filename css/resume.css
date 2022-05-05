@@ -198,3 +198,29 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+
+.btn-simple {
+	transition: 0.1s ease-in;
+	cursor: pointer;
+}
+
+.btn-simple:hover {
+	color: darkmagenta;
+}
+
+.btn-simple.push {
+	font-size: 1.3rem;
+}
+
+#experience-year {
+  display: inline-block;
+  width: 23px;
+}
+
+.my-auto {
+  font-size: 1.15rem;
+}
+
+.my-auto .subheading {
+  height: 36px;
+}
