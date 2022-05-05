@@ -214,7 +214,7 @@ a:hover, a:focus, a:active {
 
 #experience-year {
   display: inline-block;
-  width: 23px;
+  min-width: 23px;
 }
 
 .my-auto {
@@ -222,5 +222,5 @@ a:hover, a:focus, a:active {
 }
 
 .my-auto .subheading {
-  height: 36px;
+  min-height: 36px;
 }
